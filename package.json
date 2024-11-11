@@ -1,6 +1,6 @@
 {
   "name": "@aoout/create-obsidian-plugin",
-  "version": "1.9.9",
+  "version": "1.9.10",
   "description": "An unofficial tool for easily creating an obsidian plugin, with i18n support, workflows...",
   "keywords": [
     "create",
