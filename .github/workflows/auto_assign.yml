@@ -12,6 +12,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           reviewers: |
-              lisandra-dev
-          assignees: lisandra-dev
+              aoout
+          assignees: aoout
           skipKeywords: wip, draft

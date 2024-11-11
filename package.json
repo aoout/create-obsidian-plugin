@@ -1,6 +1,6 @@
 {
-  "name": "@lisandra-dev/create-obsidian-plugin",
-  "version": "1.9.1",
+  "name": "@aoout/create-obsidian-plugin",
+  "version": "1.9.2",
   "description": "An unofficial tool for easily creating an obsidian plugin, with i18n support, workflows...",
   "keywords": [
     "create",
@@ -8,12 +8,15 @@
     "plugin",
     "obsidian.md"
   ],
-  "bin": "./bin/run",
+  "bin": {
+    "create-obsidian-plugin": "bin/run"
+  },
   "author": "Justin Bennett <zephraph@gmail.com>",
   "contributors": [
-    "lisandra-dev <mara-li@outlook.fr>"
+    "lisandra-dev <mara-li@outlook.fr>",
+    "aoout <wuz66280@gmail.com>"
   ],
-  "homepage": "https://github.com/Lisandra-dev/create-obsidian-plugin",
+  "homepage": "https://github.com/aoout/create-obsidian-plugin",
   "license": "MIT",
   "main": "lib/create-obsidian-plugin.js",
   "directories": {
@@ -25,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lisandra-dev/create-obsidian-plugin.git"
+    "url": "git+https://github.com/aoout/create-obsidian-plugin.git"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -43,7 +46,7 @@
     "t": ""
   },
   "bugs": {
-    "url": "https://github.com/Lisandra-dev/create-obsidian-plugin/issues"
+    "url": "https://github.com/aoout/create-obsidian-plugin/issues"
   },
   "devDependencies": {
     "@types/ejs": "3.1.2",

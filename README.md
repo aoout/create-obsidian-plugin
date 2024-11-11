@@ -6,9 +6,9 @@ A tool to easily create plugins for [obsidian](https://obsidian.md/)
 
 Run one of the following command, depending of your favorite package manager: 
 
-- `npm init @lisandra-dev/obsidian-plugin` or `npx @lisandra-dev/create-obsidian-plugin`
-- `yarn create @lisandra-dev/obsidian-plugin`
-- `pnpm create @lisandra-dev/obsidian-plugin`
+- `npm init @aoout/obsidian-plugin` or `npx @aoout/create-obsidian-plugin`
+- `yarn create @aoout/obsidian-plugin`
+- `pnpm create @aoout/obsidian-plugin`
 
 > [!WARNING]
 > In yarn V2+, you can't use automatically the `post` and `pre` scripts and must be manually used, as `npm run bump && npm run postbump`. See [here](https://yarnpkg.com/advanced/lifecycle-scripts) for more information.

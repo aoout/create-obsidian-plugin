@@ -3,7 +3,7 @@ description: Fill a bug report for the package
 title: "[BUG]:"
 labels: ["bug"]
 assignees: 
-  - lisandra-dev
+  - aoout
 body:
   - type: markdown
     attributes:
